@@ -1,35 +1,35 @@
 @font-face {
     font-family: 'Rockwell-Regular';
-    src: url('Rockwell-Font/Rockwell-Regular/ROCK.ttf') format('truetype'),
-         url('Rockwell-Font/Rockwell-Regular/ROCK.woff') format('woff'),
-         url('Rockwell-Font/Rockwell-Regular/ROCK.svg') format('svg');
+    src: url('./Rockwell-Font/Rockwell-Bold.ttf') format('truetype'),
+         url('./Rockwell-Font/Rockwell-Regular.woff') format('woff'),
+         url('./Rockwell-Font/Rockwell-Regular.svg') format('svg');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Rockwell-Bold';
-    src: url('Rockwell-Font/Rockwell-Bold/Rockwell-Bold.ttf') format('truetype'),
-         url('Rockwell-Font/Rockwell-Bold/Rockwell-Bold.woff') format('woff'),
-         url('Rockwell-Font/Rockwell-Bold/Rockwell-Bold.svg') format('svg');
+    src: url('./Rockwell-Font/Rockwell-Bold.ttf') format('truetype'),
+         url('./Rockwell-Font/Rockwell-Bold.woff') format('woff'),
+         url('./Rockwell-Font/Rockwell-Bold.svg') format('svg');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Raleway-Regular';
-    src: url('Raleway-Font/Raleway-Regular/Raleway-Regular.ttf') format('truetype'),
-         url('Raleway-Font/Raleway-Regular/Raleway-Regular.woff') format('woff'),
-         url('Raleway-Font/Raleway-Regular/Raleway-Regular.svg') format('svg');
+    src: url('./Raleway-Font/Raleway-Regular.ttf') format('truetype'),
+         url('./Raleway-Font/Raleway-Regular.woff') format('woff'),
+         url('./Raleway-Font/Raleway-Regular.svg') format('svg');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Raleway-Bold';
-    src: url('Raleway-Font/Raleway-Bold/Raleway-Bold.ttf') format('truetype'),
-         url('Raleway-Font/Raleway-Bold/Raleway-Bold.woff') format('woff'),
-         url('Raleway-Font/Raleway-Bold/Raleway-Bold.svg') format('svg');
+    src: url('./Raleway-Font/Raleway-Bold.ttf') format('truetype'),
+         url('./Raleway-Font/Raleway-Bold.woff') format('woff'),
+         url('./Raleway-Font/Raleway-Bold.svg') format('svg');
     font-weight: 700;
     font-style: normal;
 }
