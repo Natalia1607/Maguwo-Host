@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/media.css">
     <link rel="stylesheet" href="./fonts/font.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1d2e153e32.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="bg">
             <div class="container header__container">
                 <nav class="nav__wrapper">
                     <div class="nav__logo">
-                        <img class="logo__img" src="image/logo.png" alt="">
+                        <img class="logo__img" src="./image/header-logo.png" alt="logotip">
                         <div class="logo__text">Maguwo<span class="bold">Host</span></div>
                     </div>
                     <div class="navbar">
@@ -39,10 +39,10 @@
             <div class="promo">
                 <h1 class="promo__title">Just a Proffesional Web Hosting Services</h1>
                 <span class="promo__text">modern  -  fast  -  reliable</span>
-                <img src="./image/promo-logo.png" alt="" class="promo__img">
-                <form action="" class="promo__form">
-                    <input type="email" name="" id="" class="promo__input" placeholder="Your Domain Name ...">
-                    <select name="" id="" class="promo__select"> 
+                <img src="./image/promo-logo.png" alt="logotip" class="promo__img">
+                <form class="promo__form" method="post">
+                    <input type="email" name="Email" id="email" class="promo__input" placeholder="Your Domain Name ...">
+                    <select name="Domain" id="select__domain" class="promo__select"> 
                         <option value=".com">.com</option>
                         <option value=".org">.org</option>
                         <option value=".net">.net</option>
@@ -55,7 +55,7 @@
 
     <div class="section__wrapper">
         <section class="section__webshost">
-            <img src="./image/webhost.png" alt="" class="section__icon" width="170" height="170">
+            <img src="./image/webhost.png" alt="webhost" class="section__icon" width="170" height="170">
             <h2 class="section__subtitle">#1 Webhost Services</h2>
             <p class="section__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
             <button class="btn section__btn">More</button>
@@ -74,28 +74,28 @@
             
             <div class="features__wrap_inners">
                 <div class="features__inner">
-                    <img src="./image/support.png" alt="" class="features__icon">
+                    <img src="./image/support.png" alt="support" class="features__icon">
                     <hr>
                     <h4 class="features__subtitle">Live Support</h4>
                     <p class="features__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
                 </div>
 
                 <div class="features__inner">
-                    <img src="./image/cloud.png" alt="" class="features__icon">
+                    <img src="./image/cloud.png" alt="cloud" class="features__icon">
                     <hr>
                     <h4 class="features__subtitle">Cloud Technology</h4>
                     <p class="features__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
                 </div>
 
                 <div class="features__inner">
-                    <img src="./image/database.png" alt="" class="features__icon">
+                    <img src="./image/database.png" alt="database" class="features__icon">
                     <hr>
                     <h4 class="features__subtitle">Hi Tech Database</h4>
                     <p class="features__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
                 </div>
 
                 <div class="features__inner">
-                    <img src="./image/monitoring.png" alt="" class="features__icon">
+                    <img src="./image/monitoring.png" alt="monitoring" class="features__icon">
                     <hr>
                     <h4 class="features__subtitle">Live Monitoring</h4>
                     <p class="features__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
@@ -111,14 +111,73 @@
                 <p class="clients__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum.</p> 
             </div>
             <div class="clients__logotips_flex">
-                <img src="./image/tree-logo.png" alt="" class="clients__logo">
-                <img src="./image/x-logo.png" alt="" class="clients__logo">
-                <img src="./image/u-logo.png" alt="" class="clients__logo">
-                <img src="./image/fish-logo.png" alt="" class="clients__logo">
+                <img src="./image/tree-logo.png" alt="tree" class="clients__logo">
+                <img src="./image/x-logo.png" alt="x-logo" class="clients__logo">
+                <img src="./image/u-logo.png" alt="u-logo" class="clients__logo">
+                <img src="./image/fish-logo.png" alt="fish" class="clients__logo">
             </div>
         </div>
     </section>
     
+    <div class="review">
+        <div class="container container__review">
+            <div class="review__card">
+                <p class="review__text">"This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."</p>
+                <p class="review__author">-Anna</p>
+                <img src="./image/avatar.png" alt="avatar" class="review__avatar">
+            </div>
+
+            <div class="review__card">
+                <p class="review__text">"This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."</p>
+                <p class="review__author">-Anna</p>
+                <img src="./image/avatar.png" alt="avatar" class="review__avatar">
+            </div>
+
+            <div class="review__card">
+                <p class="review__text">"This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."</p>
+                <p class="review__author">-Anna</p>
+                <img src="./image/avatar.png" alt="avatar" class="review__avatar">
+            </div>
+        </div>
+    </div>
+
+    <div class="action">
+        <div class="container container__action">
+            <div class="action__wrap">
+                <p class="action__qestion">Do you want to view Plans & Pricing ?</p>
+                <span class="action__text">Follow the button in the right section.</span>
+            </div>
+            <button class="btn action__btn">Plans & Pricing</button>
+        </div>
+    </div>
+
+    <footer class="footer__main">
+        <div class="container footer__container">
+            <div class="footer__navbar">
+                <h3 class="footer__subtitle">Navigation</h3>
+                <ul class="nav__main nav__footer">
+                    <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Domain</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Hosting</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__social">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook-f"></i>
+            </div>
+
+            <a href="#header" class="link_top">Back to Top</a>
+
+            <div class="footer__copyright">
+                <img src="./image/footer-logo.png" alt="logotip" class="footer__logo">
+                <p class="footer__text">Copyright 2022 Maguwohost by FikriStudio</p>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
